@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
+    <title>Faculty</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-warning ">
+<nav class="navbar navbar-expand-lg navbar-light bg-info">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,15 +48,27 @@
         <div class="row">
                 <table class="table table-borderless">
     <tr>
-        <td>Name</td>
+        <td>Faculty Name</td>
         <td><input type="text" class="form-control"></td>
     </tr>
     <tr>
-        <td>Roll Number</td>
+        <td>Department</td>
         <td><input type="text" class="form-control"></td>
     </tr>
     <tr>
-        <td>Admission Number</td>
+        <td>Address</td>
+        <td><input type="text" class="form-control"></td>
+    </tr>
+    <tr>
+        <td>Phone Number</td>
+        <td><input type="text" class="form-control"></td>
+    </tr>
+    <tr>
+        <td>Educational Qualifications</td>
+        <td><input type="text" class="form-control"></td>
+    </tr>
+    <tr>
+        <td>Phone Number</td>
         <td><input type="text" class="form-control"></td>
     </tr>
     <tr>
@@ -65,12 +77,11 @@
     </tr>
     <tr>
         <td></td>
-        <td><button type="submit" class="btn btn-warning">SUBMIT</button></td>
+        <td><button type="submit" class="btn btn-info">SUBMIT</button></td>
     </tr>
     </table>
     </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-
 </body>
 </html>
